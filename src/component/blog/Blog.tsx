@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import blogPost from "@/data/blogPost.json";
 import axios from "axios";
 import styles from "./Blog.module.scss";
 const BlogComponent = () => {
